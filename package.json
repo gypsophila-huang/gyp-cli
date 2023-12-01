@@ -1,0 +1,23 @@
+{
+  "name": "gyp-cli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "bin": {
+    "gyp-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Gypsophila",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "download": "^8.0.0",
+    "fs-extra": "^11.2.0",
+    "log-symbols": "^6.0.0",
+    "ora": "^5.4.1",
+    "update-notifier": "^7.0.0"
+  }
+}
